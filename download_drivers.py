@@ -1,12 +1,6 @@
 """
-This utility downloads the Selenium browser drivers. Enjoy!
+This utility downloads the Selenium browser drivers (Chromedriver and Geckodriver). Enjoy!
 The drivers will be downloaded in the directory where this file is present.
-
-Supported browsers:
-Chrome, Firefox, Safari (selenium works without safaridriver)
-
-Supported operating systems:
-Mac OS, Windows, Linux
 
 Usage:
 from download_drivers import ChromeDriver, GeckoDriver
@@ -19,6 +13,12 @@ cd.download_chromedriver()
 # For Firefox driver
 gd = GeckoDriver('0.26.0')
 gd.download_geckodriver()
+
+Supported browsers:
+Chrome, Firefox, Safari (selenium works without safaridriver)
+
+Supported operating systems:
+Mac OS, Windows, Linux
 """
 import os
 import platform
